@@ -1,0 +1,58 @@
+/* Resetando o estilo padrão de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo da carta */
+.carta {
+    width: 500px;
+    padding: 30px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+    line-height: 1.5;
+    position: relative;
+}
+
+/* Estilo do título da carta */
+.carta h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo do botão */
+.botao {
+    display: block;
+    width: 200px;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: #45a049;
+}
